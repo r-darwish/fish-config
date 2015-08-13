@@ -36,6 +36,7 @@ abbr brewup="brew update; and brew upgrade"
 abbr yain="yaourt -S"
 abbr yareps="yaourt -Ss"
 abbr yaupg="yaourt -Syua"
+abbr yarem="yaourt -Rns"
 
 # slash
 abbr sr="slash run"
@@ -46,6 +47,14 @@ alias fgnd='fg ; nd'
 
 # systemd
 abbr sc="sudo systemctl"
+abbr jc="journalctl"
+
+# apt
+abbr ai="sudo apt-get install"
+abbr adu="sudo apt-get update; and sudo apt-get dist-upgrade"
+abbr aar="sudo apt-get autoremove"
+abbr apu="sudo apt-get purge"
+abbr acs="apt-cache search"
 
 # autojump
 [ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
