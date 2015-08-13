@@ -1,9 +1,9 @@
 set fish_greeting ""
 set fish_color_command 2E64FE
 
-set EDITOR vim
-set LC_LANG en_US.UTF-8
-set LC_CTYPE en_US.UTF-8
+set -x EDITOR vim
+set -x LC_LANG en_US.UTF-8
+set -x LC_CTYPE en_US.UTF-8
 
 # ls colors
 set -Ux LSCOLORS Gxfxcxdxbxegedabagacad
