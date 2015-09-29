@@ -131,3 +131,5 @@ function fish_right_prompt
   set -l cwd $blue(pwd)
   echo $cwd
 end
+
+[ -e $HOME/.config/fish/config.local.fish ]; and . $HOME/.config/fish/config.local.fish
