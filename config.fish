@@ -62,9 +62,9 @@ abbr acs="apt-cache search"
 
 # pyenv
 if test -n "$PYENV_ROOT"
-  set --universal fish_user_paths $PYENV_ROOT/shims $fish_user_paths
+  set --global fish_user_paths $PYENV_ROOT/shims $fish_user_paths
 else if [ -d $HOME/.pyenv ]
-  set --universal fish_user_paths $HOME/.pyenv/shims $fish_user_paths
+  set --global fish_user_paths $HOME/.pyenv/shims $fish_user_paths
 end
 
 # virtualenv
