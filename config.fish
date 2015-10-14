@@ -42,7 +42,7 @@ abbr yarem="yaourt -Rns"
 abbr sr="slash run"
 
 # PushBullet
-alias nd='pb push -t (hostname -s) "Process exited: $status"'
+alias nd='set _nd_status $status; pb push -t (hostname -s) "Process exited: $_nd_status"'
 alias fgnd='fg ; nd'
 
 # systemd
